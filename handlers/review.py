@@ -5,7 +5,7 @@ from aiogram.fsm.context import FSMContext
 from aiogram.types import Message, CallbackQuery
 from aiogram.types import ReplyKeyboardMarkup, KeyboardButton
 
-from config import ADMIN_IDS
+# from config import ADMIN_IDS
 from keyboards.common import rating_keyboard, review_templates_keyboard, TEMPLATE_OPTIONS, TEMPLATE_KEYS, \
     TEMPLATES_PER_PAGE
 from states.review import ReviewState

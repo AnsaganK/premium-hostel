@@ -4,4 +4,4 @@ import os
 load_dotenv()
 
 BOT_TOKEN = os.getenv("BOT_TOKEN")
-ADMIN_IDS = list(map(int, os.getenv("ADMIN_IDS", "").split(",")))  # Пример: 12345678,87654321
+# ADMIN_IDS = list(map(int, os.getenv("ADMIN_IDS", "").split(",")))  # Пример: 12345678,87654321
