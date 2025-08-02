@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environment
+venv/
+.env/
+.envrc
+.venv/
+*.env
+
+# VSCode / IDE
+.vscode/
+.idea/
+*.swp
+
+# Byte-compiled / logs / test cache
+*.log
+*.db
+*.sqlite3
+*.sqlite
+*.json.bak
+.DS_Store
+*.orig
+*.bak
+*.tmp
+*.test.*
+.cache/
+.pytest_cache/
+.mypy_cache/
+coverage.*
+
+# OS
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Render / Railway / Heroku
+build/
+*.tar.gz
+*.egg-info/
+
+# Misc
+local_settings.py
+*.local.json
+logs/
+sessions/
+data/
+
+# If you use Docker
+docker-compose.override.yml
+*.pid
