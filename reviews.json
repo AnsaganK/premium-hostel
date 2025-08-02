@@ -1,62 +1,6 @@
 {
   "849990922": [
-    {
-      "rating": 4,
-      "templates": [],
-      "timestamp": "2025-08-02T13:39:21.965595"
-    },
-    {
-      "rating": 3,
-      "text": "Второй отзыв",
-      "templates": [],
-      "timestamp": "2025-08-02T13:40:45.116051"
-    },
-    {
-      "rating": 4,
-      "text": "Тихо и спокойно\nУдобная локация",
-      "templates": [],
-      "timestamp": "2025-08-02T13:41:05.551812"
-    },
-    {
-      "rating": 3,
-      "text": "Вежливый персонал\nУдобная локация",
-      "templates": [],
-      "timestamp": "2025-08-02T13:44:47.218938"
-    },
-    {
-      "rating": 5,
-      "text": null,
-      "templates": [
-        "staff",
-        "location",
-        "food"
-      ],
-      "timestamp": "2025-08-02T13:47:53.051315"
-    }
   ],
   "1345974143": [
-    {
-      "rating": 3,
-      "text": null,
-      "templates": [
-        "clean",
-        "location",
-        "food",
-        "quiet"
-      ],
-      "timestamp": "2025-08-02T16:50:31.736953"
-    },
-    {
-      "rating": 4,
-      "text": "Новый отзыв",
-      "templates": null,
-      "timestamp": "2025-08-02T16:53:49.303923"
-    },
-    {
-      "rating": 4,
-      "text": "Просто отзыв",
-      "templates": null,
-      "timestamp": "2025-08-02T18:30:38.756371"
-    }
   ]
 }
