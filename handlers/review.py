@@ -144,7 +144,6 @@ async def change_page(callback: CallbackQuery, state: FSMContext):
     await callback.answer()
 
 
-# @router.message(F.text == "/myreviews")
 @router.message(F.text.lower() == "📝 мои отзывы")
 async def handle_my_reviews(message: Message):
     user_id = str(message.from_user.id)
@@ -162,3 +161,16 @@ async def handle_my_reviews(message: Message):
         text += f"{idx}. ⭐ {r['rating']}/5\n{templates_text}\n🕓 {time_str}\n\n"
 
     await message.answer(text)
+
+
+@router.message(F.text == "/allreviews")
+async def handle_my_reviews(message: Message):
+    # user_id = str(message.from_user.id)
+    reviews = load_reviews()
+
+    if not reviews:
+        await message.answer("В базе нет отзывов.")
+        return
+
+    text = "Все отзывы из базы:\n\n"
+    await message.answer(text + str(reviews))

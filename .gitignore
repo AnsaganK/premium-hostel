@@ -53,3 +53,5 @@ data/
 # If you use Docker
 docker-compose.override.yml
 *.pid
+
+reviews.json
